@@ -1,0 +1,317 @@
+body{
+    margin:0px;
+    height: 750px;
+    background-image:url(../assets/textura_parede.webp);
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    box-shadow: none;
+    float: none;
+  
+}
+.title{
+    color: hsl(12, 68%, 23%);
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 7px grey;
+    text-decoration: underline;
+    text-align: center;
+}
+header{
+    background-color: rgb(245, 245, 245);
+    width: 38%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgb(167, 167, 165);
+}
+h2{
+    font-size: 1.1rem;
+}
+a{
+    text-decoration: none;
+    color:rgb(73, 23, 23);   
+}
+a:hover{
+    background-color: rgb(48, 30, 17);
+    color:rgb(216, 216, 216);
+    transition: 2s;
+}
+.header{
+    margin: auto;
+    display: inline-block;
+    left:50%;
+    padding: 1%;
+    padding-left: 2%;
+    border-color: rgb(248, 248, 248);
+    border-style: solid;
+    border-right-color: rgb(48, 48, 48);
+}
+.header1{
+    margin: auto;
+    display: inline-block;
+    padding: 1%;
+    padding-left: 2%;
+    border-color: rgb(245, 245, 245);
+    border-style: solid;
+}
+.box_1{
+    width: 50%;
+    height: 65%;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    left: 20%;
+    border-color: rgb(51, 51, 51);
+    border-width: 3px;
+    border-style:double;
+    padding-top:1%;
+    padding-left:3%;
+    padding-bottom:3%;
+    padding-right:3%;
+
+    box-shadow: 3px 3px 20px rgb(194, 194, 194);
+
+}
+img{
+    width: 450px;
+    height: 400px;
+    float: right;
+    box-shadow: 10px 10px 10px rgb(131, 131, 131);
+  
+}
+
+p{
+    width: 220px;
+    font-size: 18px;
+    text-indent: 20px;
+    text-align: justify;
+}
+h3{
+    width: 200px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    text-align: left;
+    text-decoration:none;
+}
+.quadro1{
+    color:rgb(236, 236, 236);
+    text-shadow: 2px 2px 3px rgb(73, 73, 73);
+    background-repeat: no-repeat;
+    background-size:auto;
+    padding-top:0px;
+    padding-left: 30px;
+    background-position: 70%;
+    background-image: url(../assets/atendimento.webp);
+    width: 40%;
+    height: 100%;
+    float:left;
+    display: inline-block;
+    position: relative;
+    
+}
+.quadro2{
+    width: 30%;
+    display: inline-block;
+    margin-left: 20%;
+    position: relative;
+    
+}
+.botao{
+    background-color: hsl(12, 68%, 23%);
+    border: 2px solid hsl(12, 68%, 23%);
+    border-radius: 8%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(253, 253, 205);
+    width: 100px;
+    height: 30px;
+}
+form{
+    color:rgb(68, 68, 68);
+}
+input{
+    border-radius: 3px;
+    background-color: rgb(233, 233, 232);
+    color:rgb(78, 17, 17);
+    border:2px solid hsl(12, 68%, 23%);
+    width: 100%;
+    height: 100%;
+
+}
+textarea{
+    border-radius: 3px;
+    background-color: rgb(240, 240, 240);
+    color:rgb(78, 17, 17);
+    border:2px solid hsl(12, 68%, 23%);
+    width: 100%;
+    height: 100%;
+
+}
+.botao:hover{
+    transition: 1s;
+    background-color: wheat;
+    color:hsl(12, 68%, 23%);
+}
+
+@media screen and (max-width:1300px) {
+    header{
+        background-color: rgb(245, 245, 245);
+        width: 40%;
+        margin: auto;
+        box-shadow: 3px 3px 3px rgb(167, 167, 165);
+    }
+    h2{
+        font-size: 1.1rem;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(73, 23, 23);   
+    }
+    a:hover{
+        background-color: rgb(48, 30, 17);
+        color:rgb(216, 216, 216);
+        transition: 2s;
+    }
+    .header{
+        margin: auto;
+        display: inline-block;
+        left:50%;
+        padding: 1%;
+        border-color: rgb(248, 248, 248);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+    .header1{
+        margin: auto;
+        display: inline-block;
+        padding: 1%;
+        border-color: rgb(245, 245, 245);
+        border-style: solid;
+    }
+    .box_1{
+        width: 60%;
+        height: 65%;
+        background-color: rgb(247, 247, 247);
+        position: absolute;
+        left: 20%;
+        border-color: rgb(51, 51, 51);
+        border-width: 3px;
+        border-style:double;
+        padding-top:1%;
+        padding-left:3%;
+        padding-bottom:1%;
+        padding-right:3%;
+    
+        box-shadow: 3px 3px 20px rgb(194, 194, 194);
+    
+    }
+    .quadro2{
+        width: 30%;
+        display: inline-block;
+        margin-left: 5%;
+        position: relative;
+        
+    }
+
+}
+
+@media screen and (max-width:800px) {
+
+    body{
+        width: 320px;
+        margin: auto;
+    }
+    header{
+        background-color: rgb(245, 245, 245);
+        width: 60%;
+        margin: auto;
+        box-shadow: 3px 3px 3px rgb(167, 167, 165);
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(73, 23, 23);   
+    }
+    li:hover{
+        color:rgb(173, 169, 169);
+        font-variant: small-caps;
+        transition: 1s;
+        background-color: rgb(73, 23, 23);
+        
+    }
+    .header{
+        height: 30%;
+        margin: auto;
+        display: block;
+        left:50%;
+        padding: 5%;
+        border-color: rgb(114, 43, 43);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+    .header1{
+        margin: auto;
+        display: block;
+        padding: 5%;
+        border-color: rgb(114, 43, 43);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+    .box_1{
+            width: 60%;
+            left: 10%;
+            height: 130%;
+
+    }
+
+    .quadro1{
+        top: 5%;
+        width: auto;
+        height: 50%;
+        
+    }
+
+    .quadro2{
+        top: 10%;
+        width: 30%;
+        display: block;
+        margin-left: 5%;
+        position: relative;
+        
+    }
+
+    
+    p{
+        width: 100%;
+        font-size: 80%;
+        text-indent: 20px;
+        text-align: justify;
+    }
+    h3{
+        width: 80%;
+        display: block;
+        font-size: 80%;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+
+
+
+    .botao{
+        background-color: hsl(12, 68%, 23%);
+        border: 2px solid hsl(12, 68%, 23%);
+        border-radius: 8%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        color:rgb(253, 253, 205);
+        width: 100%;
+        height: 30px;
+    }
+    form{
+        color:rgb(68, 68, 68);
+        margin-top: 30%;
+
+    }
+ 
+    
+}

@@ -1,0 +1,257 @@
+body{
+    margin:auto;
+    height: 100%;
+    background-image:url(../assets/textura_parede.webp);
+    background-size: cover;
+}
+.logo{
+    width: 150px;
+    height: 150px;
+    box-shadow: none;
+}
+.title{
+    color: hsl(12, 68%, 23%);
+    font-size: 14px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 7px grey;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+    /* ----------Cabeçalho ------------*/
+
+header{
+    background-color: rgb(245, 245, 245);
+    width: 38%;
+    margin: auto;
+    box-shadow: 3px 3px 3px rgb(167, 167, 165);
+}
+h2{
+    font-size: 1rem;
+}
+a{
+    text-decoration: none;
+    color:rgb(73, 23, 23);   
+}
+a:hover{
+    background-color: rgb(48, 30, 17);
+    color:rgb(216, 216, 216);
+    transition: 2s;
+}
+.header{
+    margin: auto;
+    display: inline-block;
+    left:50%;
+    padding-left: 2%;
+    padding: 1%;
+    border-color: rgb(248, 248, 248);
+    border-style: solid;
+    border-right-color: rgb(48, 48, 48);
+}
+.header1{
+    padding-left: 2%;
+    margin: auto;
+    display: inline-block;
+    padding: 1%;
+    border-color: rgb(245, 245, 245);
+    border-style: solid;
+}
+
+
+
+
+
+.box_1{
+    width: 50%;
+    max-height: auto;
+    background-color: rgb(247, 247, 247);
+    position: absolute;
+    left: 20%;
+    border-color: rgb(51, 51, 51);
+    border-width: 3px;
+    border-style:double;
+    padding: 5%;
+    box-shadow: 3px 3px 20px rgb(194, 194, 194);
+
+}
+.page_home{
+    max-height: auto;
+    padding: 0%;
+    margin: 0%;
+
+
+}
+.img1{
+    margin-left: 30px;
+    max-width: auto;
+    height:80%;
+    float: right;
+    position: relative;
+    bottom: 40px;
+    box-shadow: 1px 1px 10px rgb(131, 131, 131);
+  
+}
+
+p{
+    width: 250px;
+    font-size: 20px;
+    text-indent: 20px;
+    text-align: justify;
+}
+h3{
+    width: 200px;
+    font-size: 21px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: underline;
+}
+
+
+
+@media screen and (max-width:1300px) {
+
+    body{
+        width: auto;
+        margin: auto;
+    }
+
+    header{
+        background-color: rgb(245, 245, 245);
+        width: 40%;
+        margin: auto;
+        box-shadow: 3px 3px 3px rgb(167, 167, 165);
+    }
+    h2{
+        font-size: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(73, 23, 23);   
+    }
+    a:hover{
+        background-color: rgb(48, 30, 17);
+        color:rgb(216, 216, 216);
+        transition: 2s;
+    }
+    .header{
+        margin: auto;
+        display: inline-block;
+        left:50%;
+        padding: 1%;
+        border-color: rgb(248, 248, 248);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+    .header1{
+        margin: auto;
+        display: inline-block;
+        padding: 1%;
+        border-color: rgb(245, 245, 245);
+        border-style: solid;
+    }
+        /*  -------------------Cabeçalho------ */
+
+        .img1{
+        margin-left: 90%;
+        width: 80%;
+        height:auto;
+        display: block;
+        position: relative;
+        margin-top: 20%;
+        box-shadow: 1px 1px 10px rgb(131, 131, 131);
+      
+    }
+    
+    p{
+        width: 80%;
+        font-size: 20px;
+        text-indent: 20px;
+        text-align: justify;
+    }
+    h3{
+        
+        width: 60%;
+        display: block;
+        font-size: 21px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+}
+
+
+
+@media screen and (max-width:700px) {
+
+    body{
+        width: 320px;
+        margin: auto;
+    }
+
+    header{
+        background-color: rgb(245, 245, 245);
+        width: 60%;
+        margin: auto;
+        box-shadow: 3px 3px 3px rgb(167, 167, 165);
+    }
+    h2{
+        font-size: 1.2rem;
+    }
+    a{
+        text-decoration: none;
+        color:rgb(73, 23, 23);   
+    }
+    li:hover{
+        color:rgb(173, 169, 169);
+        font-variant: small-caps;
+        transition: 1s;
+        background-color: rgb(73, 23, 23);
+        
+    }
+    .header{
+        height: 30%;
+        margin: auto;
+        display: block;
+        left:50%;
+        padding: 5%;
+        border-color: rgb(114, 43, 43);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+    .header1{
+        margin: auto;
+        display: block;
+        padding: 5%;
+        border-color: rgb(114, 43, 43);
+        border-style: solid;
+        border-right-color: rgb(48, 48, 48);
+    }
+
+
+    .img1{
+        margin-left: 300px;
+        width: 80%;
+        height:auto;
+        display: block;
+        position: relative;
+        margin-top: 20%;
+        box-shadow: 1px 1px 10px rgb(131, 131, 131);
+      
+    }
+    
+    p{
+        width: 80%;
+        font-size: 20px;
+        text-indent: 20px;
+        text-align: justify;
+    }
+    h3{
+        
+        width: 60%;
+        display: block;
+        font-size: 21px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        text-decoration: underline;
+    }
+    
+}

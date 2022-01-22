@@ -212,7 +212,8 @@ h3{
     .list_locais1{
         text-align: justify;
         display:block;
-        width: 80%;
+        width: 100%;
+        padding: 0%;
         border-right:none;
         font-size: 100%;
         list-style: none;
@@ -221,11 +222,11 @@ h3{
     
     }
     .list_locais2{
-        text-align: justify;
+        
         margin-top: 10%;
         display:block;
-        margin-left:0%;
-        width:80%;
+        padding: 0%;
+        width:100%;
         font-size: 100%;
         list-style: none;
     }

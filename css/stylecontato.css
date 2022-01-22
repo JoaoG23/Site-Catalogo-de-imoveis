@@ -269,7 +269,7 @@ textarea{
         top: 5%;
         width: auto;
         height: 50%;
-        
+        border: 2px solid rgb(41, 9, 9);
     }
 
     .quadro2{
@@ -309,8 +309,11 @@ textarea{
     }
     form{
         color:rgb(68, 68, 68);
-        margin-top: 30%;
+        width: 150px;
 
+    }
+    textarea{
+        height: 70px;
     }
  
     
